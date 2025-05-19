@@ -1,2 +1,8 @@
 packages:
   - '*/src'
+
+catalog:
+  '@slidev/cli': ^51.7.1
+  '@slidev/theme-default': latest
+  '@slidev/theme-seriph': latest
+  '@aotoki/slidev-theme-terraforming': latest

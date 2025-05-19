@@ -4,5 +4,11 @@
   "scripts": {
     "build": "rm -rf dist && pnpm -r run build"
   },
-  "author": "Aotokitsuruya"
+  "author": "Aotokitsuruya",
+  "devDependencies": {
+    "@slidev/cli": "catalog:",
+    "@slidev/theme-default": "catalog:",
+    "@slidev/theme-seriph": "catalog:",
+    "@aotoki/slidev-theme-terraforming": "catalog:"
+  }
 }
