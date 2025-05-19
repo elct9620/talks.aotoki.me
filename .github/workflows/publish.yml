@@ -17,7 +17,7 @@ concurrency:
 
 env:
   PNPM_VERSION: 9
-  NODE_VERSION: lts
+  NODE_VERSION: lts/*
 
 
 jobs:
