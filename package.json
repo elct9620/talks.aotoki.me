@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && pnpm -r run build"
+  },
+  "author": "Aotokitsuruya"
+}
