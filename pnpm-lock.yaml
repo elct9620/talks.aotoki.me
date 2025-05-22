@@ -8,7 +8,7 @@ catalogs:
   default:
     '@aotoki/slidev-theme-terraforming':
       specifier: latest
-      version: 0.4.1
+      version: 0.4.2
     '@slidev/cli':
       specifier: ^51.7.1
       version: 51.7.1
@@ -25,7 +25,7 @@ importers:
     devDependencies:
       '@aotoki/slidev-theme-terraforming':
         specifier: 'catalog:'
-        version: 0.4.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.14)(markdown-it-async@2.2.0)(postcss@8.5.3)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(jiti@2.4.2)(yaml@2.8.0))
+        version: 0.4.2(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.14)(markdown-it-async@2.2.0)(postcss@8.5.3)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(jiti@2.4.2)(yaml@2.8.0))
       '@slidev/cli':
         specifier: 'catalog:'
         version: 51.7.1(@babel/parser@7.27.2)(@nuxt/kit@3.17.3)(@types/markdown-it@14.1.2)(@types/node@22.15.19)(@vue/compiler-sfc@3.5.14)(markdown-it-async@2.2.0)(postcss@8.5.3)
@@ -57,8 +57,8 @@ packages:
   '@antfu/utils@9.2.0':
     resolution: {integrity: sha512-Oq1d9BGZakE/FyoEtcNeSwM7MpDO2vUBi11RWBZXf75zPsbUVWmUs03EqkRFrcgbXyKTas0BdZWC1wcuSoqSAw==}
 
-  '@aotoki/slidev-theme-terraforming@0.4.1':
-    resolution: {integrity: sha512-mjSP0hDhXyxWUuLKu5qxSQ04Ghbo9xDr7ROpRacsc1CsB2uix189qujypwb7uL7Lpd3KUOelJ+55m7DFJUwheA==}
+  '@aotoki/slidev-theme-terraforming@0.4.2':
+    resolution: {integrity: sha512-B/+Fg0MuyeVSejbmS2ROLRTr62PQbuezLNrVE79F3zsIrvLB7RAMMHNx/lo4GzqbqrEsOauB4UA1JvBc3hUYHA==}
     engines: {node: '>=18.0.0'}
 
   '@babel/code-frame@7.27.1':
@@ -2709,7 +2709,7 @@ snapshots:
 
   '@antfu/utils@9.2.0': {}
 
-  '@aotoki/slidev-theme-terraforming@0.4.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.14)(markdown-it-async@2.2.0)(postcss@8.5.3)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(jiti@2.4.2)(yaml@2.8.0))':
+  '@aotoki/slidev-theme-terraforming@0.4.2(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.14)(markdown-it-async@2.2.0)(postcss@8.5.3)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(jiti@2.4.2)(yaml@2.8.0))':
     dependencies:
       '@slidev/types': 51.7.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.14)(markdown-it-async@2.2.0)(postcss@8.5.3)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(jiti@2.4.2)(yaml@2.8.0))
     transitivePeerDependencies:
