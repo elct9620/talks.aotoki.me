@@ -129,7 +129,14 @@ hideInToc: true
 |---------------------|-------------|
 | Ruby -> `def`       | 0.8         |
 | Python -> `def`     | 0.8         |
-| JavaScript -> `def` | 0.2         |
+| JavaScript -> `def` | 0.1         |
+
+```mermaid
+graph LR
+   A[#Ruby] --> B[def]
+   B -- 99% --> C["add(a, b)"]
+   B -- 1% --> D["add(a, b):"]
+```
 
 ---
 layout: section
@@ -569,7 +576,7 @@ hideInToc: true
 - 使用外部工具評分和回饋（如：Rubocop）
 - 根據不同情境設計提示
 
-<p v-click>預定會做工具給自己用，但何時完成時間未定</p>
+<p v-click>等有初步穩定的版本就能在 GitHub 上看到</p>
 
 ---
 hideInToc: true
