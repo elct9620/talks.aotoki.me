@@ -385,6 +385,8 @@ hideInToc: true
 - 讓 Agent 專注單一任務（如：開發、測試）
 - 讓 Agent 專注處理單一檔案
 - 以規則說明得分方式
+  - 優先使用現有工具 e.g. Rubocop
+  - LLM as a Judge 可能會有幻覺
 
 <p v-click>這樣可以確保評估相對準確，要考慮的問題也更單純</p>
 
