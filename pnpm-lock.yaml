@@ -40,6 +40,8 @@ importers:
 
   2025-08-10/src: {}
 
+  2025-11-25/src: {}
+
 packages:
 
   '@antfu/install-pkg@1.1.0':
