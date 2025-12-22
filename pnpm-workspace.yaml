@@ -3,6 +3,6 @@ packages:
 
 catalog:
   '@aotoki/slidev-theme-terraforming': ^0.4.3
-  '@slidev/cli': ^52.11.0
+  '@slidev/cli': ^52.11.1
   '@slidev/theme-default': latest
   '@slidev/theme-seriph': latest
