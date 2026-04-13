@@ -5,6 +5,9 @@
     "build": "rm -rf dist && pnpm -r run build"
   },
   "author": "Aotokitsuruya",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
   "devDependencies": {
     "@slidev/cli": "catalog:",
     "@slidev/theme-default": "catalog:",
