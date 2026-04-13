@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PNPM_VERSION: 9
+  PNPM_VERSION: 10
   NODE_VERSION: lts/*
 
 
