@@ -4,6 +4,7 @@
   "scripts": {
     "build": "rm -rf dist && pnpm -r run build"
   },
+  "packageManager": "pnpm@10.28.0",
   "author": "Aotokitsuruya",
   "devDependencies": {
     "@slidev/cli": "catalog:",

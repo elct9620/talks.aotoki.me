@@ -1,9 +1,6 @@
 packages:
   - '*/src'
 
-onlyBuiltDependencies:
-  - esbuild
-
 catalog:
   '@aotoki/slidev-theme-terraforming': ^0.4.3
   '@slidev/cli': ^52.14.2
