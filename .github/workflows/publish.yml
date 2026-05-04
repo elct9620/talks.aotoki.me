@@ -33,7 +33,7 @@ jobs:
       - name: Set up PNPM
         uses: pnpm/action-setup@bdf0af2a9d539c0fd91f655344d2934bfd5a2cdd # v6
       - name: Set up Node
-        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'pnpm'
