@@ -398,19 +398,15 @@ hideInToc: true
 ---
 
 <style>
-/* Wide code must not squeeze the fixed-width sidebar: let the content column
-   shrink (min-width:0) and lock the sidebar, then wrap long code lines. */
-.slidev-layout {
-    min-width: 0;
-}
-
-.sidebar {
-    flex-shrink: 0;
-}
-
-.slidev-code,
-.slidev-code code {
+/* magic-move renders into a child component whose container ships with
+   white-space:pre and a content-sized width, so long lines spill past the
+   slide. This slide's scoped styles can't reach it (its DOM lacks the slide's
+   data-v scope attribute), so pierce the boundary with :deep() and let the code
+   wrap within the column. Regular ```code``` already wraps via the theme. */
+:deep(.shiki-magic-move-container) {
     white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    max-width: 100%;
 }
 </style>
 
