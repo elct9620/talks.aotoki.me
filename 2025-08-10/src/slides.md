@@ -83,7 +83,6 @@ hideInToc: true
 ```
 ```md
 撰寫一個腳本從 example.com 抓取資料
-```python
 ```
 ````
 
@@ -310,14 +309,17 @@ hideInToc: true
 
 <v-switch>
 <template #0>
+
 ```mermaid
 graph LR
     A[Thought] --> B[Action]
     B --> C[Observation]
     C --> A
 ```
+
 </template>
 <template #1>
+
 ```mermaid
 graph LR
     A[Evaluation] --> B[Feedback]
@@ -396,8 +398,19 @@ hideInToc: true
 ---
 
 <style>
-.slidev-code {
-    text-wrap: auto;
+/* Wide code must not squeeze the fixed-width sidebar: let the content column
+   shrink (min-width:0) and lock the sidebar, then wrap long code lines. */
+.slidev-layout {
+    min-width: 0;
+}
+
+.sidebar {
+    flex-shrink: 0;
+}
+
+.slidev-code,
+.slidev-code code {
+    white-space: pre-wrap;
 }
 </style>
 
