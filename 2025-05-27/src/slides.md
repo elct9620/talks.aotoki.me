@@ -3,6 +3,7 @@ theme: '@aotoki/slidev-theme-terraforming'
 title: Ruby Information Bot (zh-TW) @ RubyJam-2025-05
 hideInToc: true
 mdc: true
+routerMode: hash
 ---
 
 # Ruby Information Bot (zh-TW)

@@ -28,6 +28,7 @@ theme: '@aotoki/slidev-theme-terraforming'
 title: [suggested title inferred from description]
 hideInToc: true
 mdc: true
+routerMode: hash
 ---
 
 # [suggested title inferred from description]

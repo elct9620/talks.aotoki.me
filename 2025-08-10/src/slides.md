@@ -3,6 +3,7 @@ theme: '@aotoki/slidev-theme-terraforming'
 title: Crafting AI-Friendly Application in Ruby
 hideInToc: true
 mdc: true
+routerMode: hash
 ---
 
 <v-switch>

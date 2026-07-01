@@ -3,6 +3,7 @@ theme: '@aotoki/slidev-theme-terraforming'
 title: 為什麼 Ruby 的 ri 比 Context7 更好
 hideInToc: true
 mdc: true
+routerMode: hash
 ---
 
 # Why Ruby's ri is better than Context7
