@@ -3,6 +3,8 @@ packages:
 
 catalog:
   '@aotoki/slidev-theme-terraforming': ^0.4.3
-  '@slidev/cli': ^52.16.0
+  # Pinned: 52.16.0 double-prefixes --base in getSlidePath, breaking navigation on
+  # subdirectory deploys (slidevjs/slidev#2622, #2629). Unpin once upstream ships a fix.
+  '@slidev/cli': 52.15.2
   '@slidev/theme-default': latest
   '@slidev/theme-seriph': latest
