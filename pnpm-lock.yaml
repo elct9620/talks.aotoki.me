@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@aotoki/slidev-theme-terraforming':
-      specifier: ^0.6.1
-      version: 0.6.1
+      specifier: ^0.7.1
+      version: 0.7.1
     '@slidev/cli':
       specifier: ^52.18.0
       version: 52.18.0
@@ -25,7 +25,7 @@ importers:
     devDependencies:
       '@aotoki/slidev-theme-terraforming':
         specifier: 'catalog:'
-        version: 0.6.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.7.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
       '@slidev/cli':
         specifier: 'catalog:'
         version: 52.18.0(@nuxt/kit@3.17.3)(@types/markdown-it@14.1.2)(@types/node@22.15.19)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(lightningcss@1.32.0)(markdown-it-async@2.2.0)(markdown-it@14.3.0)(postcss@8.5.20)(rolldown@1.1.5)
@@ -58,7 +58,7 @@ importers:
     devDependencies:
       '@aotoki/slidev-theme-terraforming':
         specifier: 'catalog:'
-        version: 0.6.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.7.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
 
 packages:
 
@@ -77,8 +77,8 @@ packages:
     resolution: {integrity: sha512-EA4PyLCD/89lZoiEuAMuOuDypG7eYCSmyJfoNxw9FCjsNvNdZg/jF1BRnNvurgHVZkPDQ718SxYM8a8TJ9Bzgg==}
     engines: {node: '>=18.0.0'}
 
-  '@aotoki/slidev-theme-terraforming@0.6.1':
-    resolution: {integrity: sha512-1eyP5siPKmwKcwTG46VlLBTjjjKb6HJftyPSKWn7lmEJ2gWv7XGNH3CXIiJ+NfqwOqRIJH3xUojLyspyHKEMhg==}
+  '@aotoki/slidev-theme-terraforming@0.7.1':
+    resolution: {integrity: sha512-PhVmDkVLXfKEaILfm4ypWwXGp+uYgqQGa98x0Lcfe9gdc6o5rTvNqT5b8yJimTz+hQIW0G6Sh3a9A+PA6Hf5/Q==}
     engines: {node: '>=18.0.0'}
 
   '@babel/code-frame@7.29.0':
@@ -3868,7 +3868,7 @@ snapshots:
       - vite
       - webpack
 
-  '@aotoki/slidev-theme-terraforming@0.6.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))':
+  '@aotoki/slidev-theme-terraforming@0.7.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
       '@slidev/types': 52.18.0(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.39)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
     transitivePeerDependencies:
