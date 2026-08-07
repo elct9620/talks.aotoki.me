@@ -136,3 +136,6 @@ dist
 .pnp.*
 
 .aider*
+
+# 講稿研究素材與 benchmark，不進版控
+tmp/
