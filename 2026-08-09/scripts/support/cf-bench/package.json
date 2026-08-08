@@ -1,0 +1,9 @@
+{
+  "name": "cf-bench",
+  "private": true,
+  "description": "Minimal Worker exposing Cloudflare's dynamic Worker loader, measured by scripts/cloudflare.rb",
+  "type": "module",
+  "devDependencies": {
+    "wrangler": "^4.118.0"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "env": {
+    "ruby": "ruby 3.4.7 (2025-10-08 revision 7a5688e2a2) +PRISM [arm64-darwin24]",
+    "cores": 16,
+    "loadavg": "{ 21.50 17.33 18.85 }",
+    "clock": "CLOCK_MONOTONIC (wall) + CLOCK_PROCESS_CPUTIME_ID (cpu)",
+    "rounds": 15,
+    "warmup": 3,
+    "round_budget_s": 0.1
+  },
+  "results": [
+    {
+      "label": "floor",
+      "median_us": 166.70793629985639,
+      "slide": "170us",
+      "cpu_median_us": 71.84550264550265,
+      "wall_minus_cpu_pct": 56.90336990539272,
+      "mean_us": 165.64345670571615,
+      "sd_us": 95.97935319143183,
+      "rsd_pct": 57.94334113779678,
+      "min_us": 45.433862223511646,
+      "max_us": 303.82116418824626,
+      "iters_per_round": 945,
+      "rounds": 15
+    },
+    {
+      "label": "baseline",
+      "median_us": 77.47091043136203,
+      "slide": "77us",
+      "cpu_median_us": 39.38603696098571,
+      "wall_minus_cpu_pct": 49.160224474344986,
+      "mean_us": 79.37043121612808,
+      "sd_us": 5.141010631566741,
+      "rsd_pct": 6.477236614183957,
+      "min_us": 73.50787120086538,
+      "max_us": 92.88158794274729,
+      "iters_per_round": 1461,
+      "rounds": 15
+    },
+    {
+      "label": "warm",
+      "median_us": 119.74584109833302,
+      "slide": "120us",
+      "cpu_median_us": 41.64972273567439,
+      "wall_minus_cpu_pct": 65.21823025029117,
+      "mean_us": 236.41410967747112,
+      "sd_us": 245.12355442076205,
+      "rsd_pct": 103.68397840347721,
+      "min_us": 110.63401127671358,
+      "max_us": 852.8336414347734,
+      "iters_per_round": 1082,
+      "rounds": 15
+    },
+    {
+      "label": "cold",
+      "median_us": 3083.31405005056,
+      "slide": "3.1ms",
+      "cpu_median_us": 190.71900826446108,
+      "wall_minus_cpu_pct": 93.81447996640713,
+      "mean_us": 2812.1570243241044,
+      "sd_us": 1313.9535962189607,
+      "rsd_pct": 46.724047940913486,
+      "min_us": 1004.8347094273272,
+      "max_us": 4596.91735507905,
+      "iters_per_round": 121,
+      "rounds": 15
+    }
+  ],
+  "versions": {
+    "wrangler": "4.118.0",
+    "note": "worker_loaders binding, local mode"
+  },
+  "layers": {
+    "workerd request handling": -89.23702586849436,
+    "loader, isolate cached": 42.27493066697099,
+    "loader, new isolate": 3005.843139619198
+  },
+  "status": "2026-08-04 run is a feasibility check taken under load -- see env.loadavg. The layers are the right shape but the figures are not quotable until re-run quiet."
+}

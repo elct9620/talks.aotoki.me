@@ -1,0 +1,50 @@
+{
+  "env": {
+    "ruby": "ruby 3.4.7 (2025-10-08 revision 7a5688e2a2) +PRISM [arm64-darwin24]",
+    "cores": 16,
+    "loadavg": "{ 2.84 4.82 4.49 }",
+    "clock": "CLOCK_MONOTONIC (wall) + CLOCK_PROCESS_CPUTIME_ID (cpu)",
+    "rounds": 15,
+    "warmup": 3,
+    "round_budget_s": 0.1
+  },
+  "results": [
+    {
+      "label": "alpine (floor)",
+      "image": "alpine",
+      "median_ms": 195.0929998420179,
+      "slide": "200ms",
+      "mean_ms": 195.20106663306555,
+      "sd_ms": 15.763310729999526,
+      "rsd_pct": 8.075422435898382,
+      "min_ms": 170.03999976441264,
+      "max_ms": 216.38899995014071,
+      "rounds": 15
+    },
+    {
+      "label": "ruby:3.4-alpine",
+      "image": "ruby:3.4-alpine",
+      "median_ms": 215.74699971824884,
+      "slide": "220ms",
+      "mean_ms": 218.77779988572001,
+      "sd_ms": 11.692623004446279,
+      "rsd_pct": 5.344519878412708,
+      "min_ms": 196.95799984037876,
+      "max_ms": 241.73300014808774,
+      "rounds": 15
+    },
+    {
+      "label": "python:3.14-alpine",
+      "image": "python:3.14-alpine",
+      "median_ms": 198.75899981707335,
+      "slide": "200ms",
+      "mean_ms": 200.01746670653424,
+      "sd_ms": 12.877418694108217,
+      "rsd_pct": 6.438147080925674,
+      "min_ms": 177.22500022500753,
+      "max_ms": 222.83599991351366,
+      "rounds": 15
+    }
+  ],
+  "docker_runtime": "OrbStack / 29.4.0"
+}

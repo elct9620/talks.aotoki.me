@@ -1,0 +1,49 @@
+{
+  "env": {
+    "ruby": "ruby 3.4.7 (2025-10-08 revision 7a5688e2a2) +PRISM [arm64-darwin24]",
+    "kobako": "0.21.1",
+    "cores": 16,
+    "loadavg": "{ 2.17 4.15 5.45 }",
+    "clock": "CLOCK_MONOTONIC (wall) + CLOCK_PROCESS_CPUTIME_ID (cpu)",
+    "rounds": 15,
+    "warmup": 3,
+    "round_budget_s": 0.1
+  },
+  "results": [],
+  "memory": {
+    "count": 1000,
+    "base_kb": 29840,
+    "after_new_kb": 30800,
+    "after_eval_kb": 33824,
+    "per_sandbox_new_kb": 0.96,
+    "per_sandbox_eval_kb": 3.984,
+    "build_us_per_sandbox": 4.143000114709139,
+    "first_eval_us_per_sandbox": 53.76200005412102
+  },
+  "gvl": [
+    {
+      "workers": 1,
+      "serial_ms": 335.981999989599,
+      "threaded_ms": 335.34800028428435,
+      "speedup": 1.0018905724941767
+    },
+    {
+      "workers": 2,
+      "serial_ms": 672.0460001379251,
+      "threaded_ms": 670.6979996524751,
+      "speedup": 1.0020098471833052
+    },
+    {
+      "workers": 4,
+      "serial_ms": 1344.9280001223087,
+      "threaded_ms": 1344.2210000939667,
+      "speedup": 1.0005259552025245
+    },
+    {
+      "workers": 16,
+      "serial_ms": 5373.736999928951,
+      "threaded_ms": 5391.813000198454,
+      "speedup": 0.9966475097951585
+    }
+  ]
+}

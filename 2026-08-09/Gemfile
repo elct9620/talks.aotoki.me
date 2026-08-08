@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# Every figure on the slides has to be reproducible, so the version is pinned
+# to the one that is public on the day of the talk.
+gem "kobako", "0.21.1"
+
+# Reference group for the "next to everyday Rails work" chart. Driven against
+# in-memory SQLite so the figure is ORM plus serialisation with no disk or
+# network in it.
+gem "activerecord", "~> 8.1"
+gem "sqlite3", "~> 2.9"

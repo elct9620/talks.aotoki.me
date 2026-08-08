@@ -1,0 +1,70 @@
+{
+  "env": {
+    "ruby": "ruby 3.4.7 (2025-10-08 revision 7a5688e2a2) +PRISM [arm64-darwin24]",
+    "kobako": "0.21.1",
+    "cores": 16,
+    "loadavg": "{ 2.88 4.93 4.52 }",
+    "clock": "CLOCK_MONOTONIC (wall) + CLOCK_PROCESS_CPUTIME_ID (cpu)",
+    "rounds": 15,
+    "warmup": 3,
+    "round_budget_s": 0.1
+  },
+  "results": [
+    {
+      "label": "nil (floor)",
+      "median_us": 59.90173422970774,
+      "slide": "60us",
+      "cpu_median_us": 59.92853389385183,
+      "wall_minus_cpu_pct": -0.04473937939979525,
+      "mean_us": 60.29402698821018,
+      "sd_us": 1.2497120254926715,
+      "rsd_pct": 2.0726962319783993,
+      "min_us": 58.602732549951504,
+      "max_us": 63.52601175480808,
+      "iters_per_round": 1903,
+      "rounds": 15
+    },
+    {
+      "label": "value: sum to 100",
+      "median_us": 116.31525729385699,
+      "slide": "120us",
+      "cpu_median_us": 116.37591911764704,
+      "wall_minus_cpu_pct": -0.05215293780144525,
+      "mean_us": 115.9118871916743,
+      "sd_us": 3.089216395735223,
+      "rsd_pct": 2.665142006209278,
+      "min_us": 111.2913600723807,
+      "max_us": 123.10202188981587,
+      "iters_per_round": 1088,
+      "rounds": 15
+    },
+    {
+      "label": "text: build a report line",
+      "median_us": 73.6790780202611,
+      "slide": "74us",
+      "cpu_median_us": 73.64125295508285,
+      "wall_minus_cpu_pct": 0.05133759297022164,
+      "mean_us": 73.94716314974383,
+      "sd_us": 3.4293086809082696,
+      "rsd_pct": 4.637512157111262,
+      "min_us": 70.05851059694099,
+      "max_us": 80.72399525478237,
+      "iters_per_round": 1692,
+      "rounds": 15
+    },
+    {
+      "label": "service: one host call",
+      "median_us": 73.20195863951304,
+      "slide": "73us",
+      "cpu_median_us": 73.23011015911835,
+      "wall_minus_cpu_pct": -0.03845733109949971,
+      "mean_us": 74.47674420218792,
+      "sd_us": 2.7189333212208746,
+      "rsd_pct": 3.650714528873028,
+      "min_us": 71.59057508748266,
+      "max_us": 80.18237465680228,
+      "iters_per_round": 1634,
+      "rounds": 15
+    }
+  ]
+}

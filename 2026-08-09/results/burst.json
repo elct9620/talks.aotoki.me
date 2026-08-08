@@ -1,0 +1,18 @@
+{
+  "env": {
+    "ruby": "ruby 3.4.7 (2025-10-08 revision 7a5688e2a2) +PRISM [arm64-darwin24]",
+    "kobako": "0.21.1",
+    "cores": 16,
+    "loadavg": "{ 2.28 4.78 5.78 }",
+    "clock": "CLOCK_MONOTONIC (wall) + CLOCK_PROCESS_CPUTIME_ID (cpu)",
+    "rounds": 15,
+    "warmup": 3,
+    "round_budget_s": 0.1
+  },
+  "results": [],
+  "burst": 100,
+  "burst_rounds": 10,
+  "sequential_us": 56.870002299547195,
+  "burst_us": 113.30000124871731,
+  "degradation": 1.9922629974927821
+}

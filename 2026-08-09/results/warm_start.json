@@ -1,0 +1,84 @@
+{
+  "env": {
+    "ruby": "ruby 3.4.7 (2025-10-08 revision 7a5688e2a2) +PRISM [arm64-darwin24]",
+    "kobako": "0.21.1",
+    "cores": 16,
+    "loadavg": "{ 2.68 5.31 6.03 }",
+    "clock": "CLOCK_MONOTONIC (wall) + CLOCK_PROCESS_CPUTIME_ID (cpu)",
+    "rounds": 15,
+    "warmup": 3,
+    "round_budget_s": 0.1
+  },
+  "results": [
+    {
+      "label": "Sandbox.new (construction only)",
+      "median_us": 4.1376700280464425,
+      "slide": "4.1us",
+      "cpu_median_us": 4.138803568816735,
+      "wall_minus_cpu_pct": -0.027395629970715846,
+      "mean_us": 4.145178198215032,
+      "sd_us": 0.050609895801414846,
+      "rsd_pct": 1.2209341403756326,
+      "min_us": 4.0668056020778796,
+      "max_us": 4.236360968136772,
+      "iters_per_round": 27348,
+      "rounds": 15
+    },
+    {
+      "label": "Sandbox.new + eval('nil')",
+      "median_us": 63.997810603525714,
+      "slide": "64us",
+      "cpu_median_us": 64.02463054187179,
+      "wall_minus_cpu_pct": -0.04190758729579884,
+      "mean_us": 64.38146320339364,
+      "sd_us": 1.1686410464720356,
+      "rsd_pct": 1.8151824893759712,
+      "min_us": 62.870278956544944,
+      "max_us": 67.39463586794528,
+      "iters_per_round": 1827,
+      "rounds": 15
+    },
+    {
+      "label": "Pool checkout + eval('nil')",
+      "median_us": 60.24949285664556,
+      "slide": "60us",
+      "cpu_median_us": 60.271805273833706,
+      "wall_minus_cpu_pct": -0.0370333692952994,
+      "mean_us": 60.96352268315152,
+      "sd_us": 1.5302472617375253,
+      "rsd_pct": 2.5101030819540218,
+      "min_us": 59.555273816654456,
+      "max_us": 63.86105483114477,
+      "iters_per_round": 1972,
+      "rounds": 15
+    },
+    {
+      "label": "eval('nil')",
+      "median_us": 59.718111060204265,
+      "slide": "60us",
+      "cpu_median_us": 59.73953261927937,
+      "wall_minus_cpu_pct": -0.035871126354804106,
+      "mean_us": 59.73969489161901,
+      "sd_us": 1.1371452972211937,
+      "rsd_pct": 1.9035003430871655,
+      "min_us": 57.98101263753743,
+      "max_us": 62.09688416220604,
+      "iters_per_round": 2054,
+      "rounds": 15
+    },
+    {
+      "label": "run(:Worker)",
+      "median_us": 76.46791259772681,
+      "slide": "76us",
+      "cpu_median_us": 76.49096573208652,
+      "wall_minus_cpu_pct": -0.03014746130313341,
+      "mean_us": 76.04672895552956,
+      "sd_us": 1.4016061374321285,
+      "rsd_pct": 1.8430853722212779,
+      "min_us": 72.29719624341091,
+      "max_us": 78.01246089495231,
+      "iters_per_round": 1605,
+      "rounds": 15
+    }
+  ]
+}

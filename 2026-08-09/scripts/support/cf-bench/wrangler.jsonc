@@ -1,0 +1,8 @@
+{
+  "name": "cf-bench",
+  "main": "src/index.js",
+  "compatibility_date": "2025-06-01",
+  "worker_loaders": [
+    { "binding": "LOADER" }
+  ]
+}
