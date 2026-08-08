@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2026-08-09-coscup/ --out ../../dist/2026-08-09-coscup",
+    "export": "slidev export --per-slide --output ../2026-08-09-coscup-zhtw.pdf"
+  },
+  "devDependencies": {
+    "@aotoki/slidev-theme-terraforming": "catalog:"
+  }
+}
