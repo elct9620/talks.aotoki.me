@@ -7,9 +7,10 @@
   "packageManager": "pnpm@10.28.0",
   "author": "Aotokitsuruya",
   "devDependencies": {
+    "@aotoki/slidev-theme-terraforming": "catalog:",
     "@slidev/cli": "catalog:",
     "@slidev/theme-default": "catalog:",
     "@slidev/theme-seriph": "catalog:",
-    "@aotoki/slidev-theme-terraforming": "catalog:"
+    "playwright-chromium": "^1.62.1"
   }
 }
