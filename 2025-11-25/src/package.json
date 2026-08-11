@@ -8,6 +8,6 @@
     "export": "slidev export --per-slide --output ../2025-11-25-rubyjam-zhtw.pdf"
   },
   "devDependencies": {
-    "@aotoki/slidev-theme-terraforming": "0.4.6"
+    "@aotoki/slidev-theme-terraforming": "0.7.1"
   }
 }
