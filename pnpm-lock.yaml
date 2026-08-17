@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@aotoki/slidev-theme-terraforming':
-      specifier: ^0.7.1
-      version: 0.7.1
+      specifier: ^0.7.2
+      version: 0.7.2
     '@slidev/cli':
       specifier: ^52.19.0
       version: 52.19.0
@@ -25,7 +25,7 @@ importers:
     devDependencies:
       '@aotoki/slidev-theme-terraforming':
         specifier: 'catalog:'
-        version: 0.7.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.7.2(@modelcontextprotocol/server@2.0.0)(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(cac@7.0.0)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(srvx@0.12.5)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
       '@slidev/cli':
         specifier: 'catalog:'
         version: 52.19.0(@nuxt/kit@3.17.3)(@oxc-project/types@0.143.0)(@types/markdown-it@14.1.2)(@types/node@22.15.19)(@vitejs/devtools-kit@0.4.12(@modelcontextprotocol/server@2.0.0)(cac@7.0.0)(srvx@0.12.5)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0)))(@vue/compiler-sfc@3.5.41)(cac@7.0.0)(esbuild@0.27.2)(hono@4.12.31)(lightningcss@1.33.0)(markdown-it-async@2.2.0)(markdown-it@14.3.0)(oxc-parser@0.131.0)(playwright-chromium@1.62.1)(postcss@8.5.26)(rolldown@1.2.3)(srvx@0.12.5)
@@ -61,7 +61,7 @@ importers:
     devDependencies:
       '@aotoki/slidev-theme-terraforming':
         specifier: 'catalog:'
-        version: 0.7.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.7.2(@modelcontextprotocol/server@2.0.0)(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(cac@7.0.0)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(srvx@0.12.5)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
 
 packages:
 
@@ -80,8 +80,8 @@ packages:
     resolution: {integrity: sha512-EA4PyLCD/89lZoiEuAMuOuDypG7eYCSmyJfoNxw9FCjsNvNdZg/jF1BRnNvurgHVZkPDQ718SxYM8a8TJ9Bzgg==}
     engines: {node: '>=18.0.0'}
 
-  '@aotoki/slidev-theme-terraforming@0.7.1':
-    resolution: {integrity: sha512-PhVmDkVLXfKEaILfm4ypWwXGp+uYgqQGa98x0Lcfe9gdc6o5rTvNqT5b8yJimTz+hQIW0G6Sh3a9A+PA6Hf5/Q==}
+  '@aotoki/slidev-theme-terraforming@0.7.2':
+    resolution: {integrity: sha512-YnXIBP0+u3szxcHgdCqNONXIRlzTQSWCfbLpe7NLJT4YsO4YR0i5GdhCokf5lGWkkbM4XflJrN03wt5A8pq6sg==}
     engines: {node: '>=18.0.0'}
 
   '@babel/code-frame@7.29.0':
@@ -3493,11 +3493,13 @@ snapshots:
       - vite
       - webpack
 
-  '@aotoki/slidev-theme-terraforming@0.7.1(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))':
+  '@aotoki/slidev-theme-terraforming@0.7.2(@modelcontextprotocol/server@2.0.0)(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(cac@7.0.0)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(srvx@0.12.5)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
-      '@slidev/types': 52.18.0(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
+      '@slidev/types': 52.19.0(@modelcontextprotocol/server@2.0.0)(@nuxt/kit@3.17.3)(@vue/compiler-sfc@3.5.41)(cac@7.0.0)(esbuild@0.27.2)(markdown-it-async@2.2.0)(rolldown@1.2.3)(srvx@0.12.5)(typescript@6.0.3)(vite@8.2.1(@types/node@22.15.19)(esbuild@0.27.2)(jiti@2.7.0)(yaml@2.9.0))
     transitivePeerDependencies:
       - '@farmfe/core'
+      - '@modelcontextprotocol/client'
+      - '@modelcontextprotocol/server'
       - '@nuxt/kit'
       - '@pinia/colada'
       - '@rspack/core'
@@ -3508,11 +3510,13 @@ snapshots:
       - '@unocss/webpack'
       - '@vue/compiler-sfc'
       - bun-types-no-globals
+      - cac
       - esbuild
       - markdown-it-async
       - pinia
       - rolldown
       - rollup
+      - srvx
       - supports-color
       - svelte
       - typescript

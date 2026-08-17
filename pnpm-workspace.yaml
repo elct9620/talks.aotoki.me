@@ -2,7 +2,7 @@ packages:
   - '*/src'
 
 catalog:
-  '@aotoki/slidev-theme-terraforming': ^0.7.1
+  '@aotoki/slidev-theme-terraforming': ^0.7.2
   '@slidev/cli': ^52.19.0
   '@slidev/theme-default': latest
   '@slidev/theme-seriph': latest
