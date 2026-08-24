@@ -37,25 +37,6 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'pnpm'
-      - name: TEMP diagnose lockfile
-        run: |
-          echo "--- identity ---"
-          md5sum pnpm-lock.yaml; wc -c pnpm-lock.yaml
-          echo "--- does the working tree match the committed blob? ---"
-          git show HEAD:pnpm-lock.yaml | cmp - pnpm-lock.yaml && echo "IDENTICAL to blob" || echo "DIFFERS from blob"
-          git status --porcelain
-          echo "--- YAML document separators at column 0 ---"
-          grep -nE '^(---|\.\.\.)' pnpm-lock.yaml || echo "none"
-          echo "--- first/last bytes ---"
-          head -c 120 pnpm-lock.yaml | od -c | head -4
-          tail -c 60 pnpm-lock.yaml | od -c
-          echo "--- what js-yaml actually sees ---"
-          node -e '
-            const fs=require("fs");
-            const s=fs.readFileSync("pnpm-lock.yaml","utf8");
-            console.log("bytes",s.length,"BOM",s.charCodeAt(0)===0xFEFF,"CR",s.includes("\r"));
-            s.split("\n").forEach((l,i)=>{ if(/^(---|\.\.\.)(\s|$)/.test(l)) console.log("SEP line",i+1,JSON.stringify(l)); });
-          '
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
       - name: Upload artifact
