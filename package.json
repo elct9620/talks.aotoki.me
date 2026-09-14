@@ -11,6 +11,6 @@
     "@slidev/cli": "catalog:",
     "@slidev/theme-default": "catalog:",
     "@slidev/theme-seriph": "catalog:",
-    "playwright-chromium": "^1.62.1"
+    "playwright-chromium": "^1.63.0"
   }
 }
